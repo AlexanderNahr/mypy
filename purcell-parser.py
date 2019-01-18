@@ -1,5 +1,9 @@
 import os
 import sys
+
+# TODO credits purcell
+# TODO parse in correct order, see init.el
+
 def read_file(path):
     c = ""
     if os.path.isfile(path):
